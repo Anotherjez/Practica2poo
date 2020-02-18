@@ -85,7 +85,7 @@ namespace Practica2poo
                     Console.WriteLine("Ya no te quedan intentos, hasta la proxima! :)");
                     goto Gameover;
                 }
-                Console.WriteLine("Intenta adivinar el numero de la loteria! (1-100) - Tienes " + (6 - cont) + " intentos restantes" + loteria);
+                Console.WriteLine("Intenta adivinar el numero de la loteria! (1-100) - Tienes " + (6 - cont) + " intentos restantes");
                 try
                 {
                     intento = int.Parse(Console.ReadLine());
